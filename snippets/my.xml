@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+    <remote name="bitbucket-prv" fetch="git@bitbucket.org:obeny" />
+
+    <!-- Replacements -->
+    <project path="packages/apps/Updater" name="obeny/evox_packages_apps_Updater" remote="github" revision="udc" />
+    <project path="vendor/lineage" name="obeny/evox_vendor_evolution" remote="github" revision="udc" />
+
+    <!-- Signing keys -->
+    <project path="vendor/lineage-priv" name="android_build_keys" remote="bitbucket-prv" revision="refs/heads/master" />
+    <project path="vendor/evolution-priv" name="android_build_keys" remote="bitbucket-prv" revision="refs/heads/master" />
+</manifest>
