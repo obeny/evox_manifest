@@ -85,12 +85,14 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="evo" />
 
   <!-- Infrastructure -->
+  <!--
   <project path="evolution/manifest" name="manifest" remote="evo" />
   <project path="evolution/OTA" name="OTA" remote="evo" />
   <project path="evolution/OTA-VANILLA" name="OTA" revision="udc-vanilla" remote="evo" />
   <project path="evolution/www" name="www" revision="main" remote="evo" />
   <project path="evolution/www/gitres" name="www_gitres" remote="evo" />
   <project path="evolution/XDA" name="XDA" remote="evo" />
+  -->
 
   <!-- Packages -->
   <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="evo" />
